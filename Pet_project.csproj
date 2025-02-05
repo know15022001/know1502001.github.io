@@ -63,6 +63,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\js\" />
+    <None Include="Shared\MainLayout.razor" />
+    <None Include="wwwroot\css\bootstrap\bootstrap.min.css.map" />
   </ItemGroup>
 
 </Project>
