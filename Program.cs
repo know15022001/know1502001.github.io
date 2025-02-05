@@ -24,7 +24,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.AddComponent<App>("app");
+
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 // Electron configuration
